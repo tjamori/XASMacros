@@ -5,10 +5,6 @@ from scipy.optimize import curve_fit
 from scipy import integrate
 from matplotlib import ticker
 
-#%pylab
-#%matplotlib inline
-
-
 def XASload(dir,de,ate,ext,interp,groupA,groupB,exc,y,shift):    #ex: p,n,energy = XASload(dir,de,ate,ext,y,pos,neg,exc)
           
     a=[];b=[];
